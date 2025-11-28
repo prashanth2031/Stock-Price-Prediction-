@@ -13,3 +13,6 @@ df.shape
 plt.figure(figsize=(16,8))
 plt.title('Close Price History')
 plt.plot(df['Close'])
+dataset=data.values
+training_data_len=math.ceil(len(dataset) * .8)
+training_data_len
