@@ -16,3 +16,6 @@ plt.plot(df['Close'])
 dataset=data.values
 training_data_len=math.ceil(len(dataset) * .8)
 training_data_len
+scaler=MinMaxScaler(feature_range=(0,1))
+scaled_data=scaler.fit_transform(dataset)
+scaled_data
