@@ -65,3 +65,6 @@ plt.plot(train['Close'])
 plt.plot(valid[['Close', 'Predictions']])
 plt.legend(['Train', 'Val', 'Predictions'], loc='lower right')
 plt.show()
+valid
+apple_quote = yf.download('AAPL', start='2012-01-01', end='2019-12-17')
+
