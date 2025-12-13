@@ -68,5 +68,6 @@ plt.show()
 valid
 apple_quote = yf.download('AAPL', start='2012-01-01', end='2019-12-17')
 print(apple_quote.columns)
+new_df = apple_quote['Close']
 
 
